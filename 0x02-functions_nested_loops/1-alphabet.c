@@ -2,7 +2,7 @@
 
 /**
  * print _alphabet - print all alphabet in lowercase
- * 
+ * Description: 'code prints all alphabet in lowercase
  * Return: 0 always
  */
 
