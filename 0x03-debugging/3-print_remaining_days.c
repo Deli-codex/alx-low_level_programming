@@ -6,16 +6,17 @@
 /**
  * print_remaining_days - take a date and print
  * left in the year, taking years into account
- * @month: month in number
+ * @month: month in number format
  * @day: day of month
  * @year: year
  * Return: void
  */
+
 void print_remaining_days(int month, int day, int year)
 {
 if ((year % 4 == 0) && (year % 400 == 0 || year % 100 != 0))
 {
-if (month >= 3 && day >= 60)
+if (month > 2 && day >= 60)
 {
 day++;
 }
@@ -26,7 +27,7 @@ else
 {
 if (month == 2 && day 60)
 {
-printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+printf("Invalid date: %02d/%02d/%0i4d\n", month, day - 31, year);
 }
 else
 {
