@@ -4,14 +4,13 @@
 #include <time.h>
 
 /**
- * print_remaining_days - take a date and print 
- * left in the year, taking years into account
+ * print_remaining_days - take a date and print left in the year, taking years into account
  * @month: month in number
  * @day: day of month
  * @year: year
  * Return: void
  */
-void print_remaining_days(int month. int day, int year)
+void print_remaining_days(int month, int day, int year)
 {
 if ((year % 4 == 0) && (year % 400 == 0 || year % 100 != 0))
 {
@@ -20,7 +19,7 @@ if (month >= 3 && day >= 60)
 day++;
 }
 printf("Day of the year: %d\n", day);
-printf("Remaining days: %d\n", 366 -day);
+printf("Remaining days: %d\n", 366 - day);
 }
 else
 {
