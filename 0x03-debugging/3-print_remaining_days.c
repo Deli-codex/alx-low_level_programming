@@ -4,7 +4,8 @@
 #include <time.h>
 
 /**
- * print_remaining_days - take a date and print left in the year, taking years into account
+ * print_remaining_days - take a date and print
+ * left in the year, taking years into account
  * @month: month in number
  * @day: day of month
  * @year: year
