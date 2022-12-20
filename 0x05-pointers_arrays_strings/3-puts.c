@@ -1,5 +1,4 @@
-#include "main.h"
-#include <unist.h>
+#include <stdio.h>
 /**
  * _puts -prints a string
  * @str: The string to print
